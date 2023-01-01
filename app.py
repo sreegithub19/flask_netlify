@@ -35,14 +35,14 @@ def index():
     '''
     return (html)
 
-@app.route('/numpy')
-def numpy():
-    x = random.normal(size=(2, 3))
-    return f'''
-    <script>
-    console.log(`{x,type(x)}`)
-    </script>
-    '''
+# @app.route('/numpy')
+# def numpy():
+#     x = random.normal(size=(2, 3))
+#     return f'''
+#     <script>
+#     console.log(`{x,type(x)}`)
+#     </script>
+#     '''
 
 @app.route("/chess")
 def chess():
