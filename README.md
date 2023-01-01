@@ -10,6 +10,8 @@ Steps:
 - pip3 freeze > requirements.txt
 - pip3 install -r requirements.txt
 - export FLASK_APP=app.py
+- pip install black --upgrade
+- pip3 install black --upgrade
 - flask run
 - python3 freeze.py
 - git add . && git commit -m "c" && git push origin main
