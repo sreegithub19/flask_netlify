@@ -11,6 +11,6 @@ Steps:
 - pip install -r requirements.txt
 - export FLASK_APP=app.py
 - flask run
-- python freeze.py
+- python3 freeze.py
 - git add . && git commit -m "c" && git push origin main
 - deactivate
