@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- 
+
 from flask import Flask
 # import seaborn as sns
 # import matplotlib.pyplot as plt
@@ -2333,7 +2333,7 @@ body{
     width:96vw;
     user-select:none;
     &:after{
-        content:" 😉";
+        content:" smiley";
     }
 }
         </style>
