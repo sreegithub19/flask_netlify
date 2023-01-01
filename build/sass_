@@ -20,7 +20,7 @@ body{
     width:96vw;
     user-select:none;
     &:after{
-        content:" 😉";
+        content:" smiley";
     }
 }
         </style>
