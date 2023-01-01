@@ -10133,7 +10133,7 @@ def virtual_keyboard():
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Virtual Keyboard ⌨️ </title>
+        <title>Virtual Keyboard </title>
         <style>
             body * {
         margin: 0;
