@@ -6,9 +6,9 @@ Steps:
 
 - python3 -m venv venv
 - source venv/bin/activate
-- pip install Frozen-Flask
-- pip freeze > requirements.txt
-- pip install -r requirements.txt
+- pip3 install Frozen-Flask
+- pip3 freeze > requirements.txt
+- pip3 install -r requirements.txt
 - export FLASK_APP=app.py
 - flask run
 - python3 freeze.py
